@@ -1,5 +1,3 @@
-//'use strict';
-
 //BUDGET CONTROLLER
 
 var budgetController = (function () {
