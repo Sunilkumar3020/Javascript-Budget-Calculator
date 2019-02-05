@@ -15,7 +15,7 @@ var gulp = require('gulp'),
 
 gulp.task('html', function(){
    return gulp.src('*.html')
-        .pipe(htmlMin())
+        .pipe(htmlMin({ collapseWhitespace: true }))
         .pipe(gulp.dest('dist/'));
 });
 
@@ -54,10 +54,10 @@ gulp.task('image', function(){
 // WATCH TATSK
 
 gulp.task('watch', function(){
-    gulp.watch('*.html').gulp.series('html');
-    gulp.watch('css/*.css').gulp.series('style');
-    gulp.watch('js/*.js').gulp.series('js');
-    gulp.watch('img/*.{png,jpeg,jpg,gif,svg}').gulp.series('image');
+    gulp.watch('*.html', gulp.series('html'));
+    gulp.watch('css/*.css', gulp.series('style'));
+    gulp.watch('js/*.js', gulp.series('js'));
+    gulp.watch('img/*.{png,jpeg,jpg,gif,svg}', gulp.series('image'));
 })
 
 

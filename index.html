@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,179 +10,151 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   
+
     <div class="container">
-<!--       Top Container start-->
-       <div class="container">
-           <div class="row">
-               <div class="col-sm-12">
+        <!--       Top Container start-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
                     <div class="top">
-                            <div class="budget">
-                                   <div class="budget__title">
-                                        <h6>Available Budget in <span class="budget__title--month">%Month%</span>:</h6>
-                                    </div>
-                                    <div class="budget__value">+ 2,345.64</div>
+                        <div class="budget">
+                            <div class="budget__title">
+                                <h6>Available Budget in <span class="budget__title--month">%Month%</span>:</h6>
+                            </div>
+                            <div class="budget__value">+ 2,345.64</div>
 
 
-                        
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                           <!--        Income Section-->
-                                            <div class="budget__income clearfix">
-                                                <div class="budget__income--text">Income</div>
-                                                <div class="right">
-                                                    <div class="budget__income--value">+ 4,300.00</div>
-                                                    <div class="budget__income--percentage">&nbsp;</div>
-                                                </div>
-                                            </div>
-                                            
-                                            <!--        Expenses Section-->
-                                                <div class="budget__expenses clearfix">
-                                                   <div class="budget__expenses--text">Expenses</div>
-                                                   <div class="right clearfix">
-                                                       <div class="budget__expenses--value">-1,954.36</div>
-                                                       <div class="budget__expenses--percentage">45%</div>
-                                                   </div>
-                                               </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                    
 
-                        
-                        </div>
-                </div>
-               </div>
-           </div>
-       </div>
-<!--       Top Container End-->
-    
-   <!--       bottom Container start--> 
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-                
-  
-  <div class="bottom">
-      <div class="add">
-          <div class="add__container">
-              <select class="add__type">
-                  <option value="inc" selected>+</option>
-                  <option value="exp">-</option>
-              </select>
-              <input type="text" class="add__description" placeholder="Add description" autofocus>
-              <input type="number" class="add__value" placeholder="Value">
-              <button class="add__btn"><i class="far fa-check-circle"></i></button>
-              
-          </div>
-      </div>
-
-     
-      <div class="container containers">
-          <div class="row">
-              <div class="col-sm-6">
-                      <div class="container clearfix">
-                              <!--      Income Container-->
-                               <div class="income">
-                                <h2 class="income__title">Income</h2>
-                                  <div class="income__list">
-                                        
-<!--
-                                        <div class="item" id="income-0">
-                                            <div class="item__description">Salary</div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <!--        Income Section-->
+                                        <div class="budget__income clearfix">
+                                            <div class="budget__income--text">Income</div>
                                             <div class="right">
-                                                <div class="item__value">+ 2,100.00</div>
-                                                <div class="item__delete">
-                                                    <button class="item__delete--btn"><i class="fas fa-trash-alt"></i></i></button>
-                                                </div>
+                                                <div class="budget__income--value">+ 4,300.00</div>
+                                                <div class="budget__income--percentage">&nbsp;</div>
                                             </div>
                                         </div>
-                                        
-                                        <div class="item" id="income-1">
-                                            <div class="item__description">Sold Car</div>
-                                            <div class="right">
-                                                <div class="item__value">+ 1,300.00</div>
-                                                <div class="item__delete">
-                                                    <button class="item__delete--btn"><i class="fas fa-trash-alt"></i></i></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        
--->
-                                        
-                                  </div>
 
-                               </div>
-                      </div>
-                        
-             </div>
-                <div class="col-sm-6">
-                    <!--       Expenses container-->
-                            <div class="expenses">
-                                <h2 class="expenses__title">Expenses</h2>
-                                <div class="expenses__list">
-<!--
-                                        
-                                    <div class="item" id="expenses-0">
-                                        <div class="item__description">Apartment rent</div>
-                                        <div class="right">
-                                            <div class="item__value">- 900.00</div>
-                                            <div class="item__percentage">21%</div>
-                                            <div class="item__delete">
-                                                <button class="item__delete--btn"><i class="fas fa-trash-alt"></i></i></button>
+                                        <!--        Expenses Section-->
+                                        <div class="budget__expenses clearfix">
+                                            <div class="budget__expenses--text">Expenses</div>
+                                            <div class="right clearfix">
+                                                <div class="budget__expenses--value">-1,954.36</div>
+                                                <div class="budget__expenses--percentage">45%</div>
                                             </div>
                                         </div>
                                     </div>
-                                    
-                                    <div class="item" id="expenses-1">
-                                        <div class="item__description">Grocery Shopping</div>
-                                        <div class="right">
-                                            <div class="item__value">- 435.28</div>
-                                            <div class="item__percentage">10%</div>
-                                            <div class="item__delete">
-                                                <button class="item__delete--btn"><i class="fas fa-trash-alt"></i></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
--->
-
                                 </div>
                             </div>
-                   </div>
-              </div>
-          </div>
-      </div>
-       
-  </div>
-          </div>
-      </div>
-      
-  </div>
-   
-   
-   
-   
 
-    
-   
-   
-   
-   
-   
-   
-   
-   
-   
 
-   
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-   
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--       Top Container End-->
+
+        <!--       bottom Container start-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+
+
+                    <div class="bottom">
+                        <div class="add">
+                            <div class="add__container">
+                                <select class="add__type">
+                                    <option value="inc" selected>+</option>
+                                    <option value="exp">-</option>
+                                </select>
+                                <input type="text" class="add__description" placeholder="Add description" autofocus>
+                                <input type="number" class="add__value" placeholder="Value">
+                                <button class="add__btn"><i class="far fa-check-circle"></i></button>
+                            </div>
+                        </div>
+
+
+                        <div class="container containers">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="container clearfix">
+                                        <!--      Income Container-->
+
+                                        <div class="income">
+                                            <h2 class="income__title">Income</h2>
+                                            <div class="income__list">
+<!--
+                                                <div class="item" id="income-0">
+                                                    <div class="item__description">Salary</div>
+                                                    <div class="right">
+                                                        <div class="item__value">+ 2,100.00</div>
+                                                        <div class="item__delete">
+                                                            <button class="item__delete--btn"><i class="fas fa-trash-alt"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+-->
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-sm-6">
+                                    <!--       Expenses container-->
+                                    <div class="expenses">
+                                        <h2 class="expenses__title">Expenses</h2>
+                                        <div class="expenses__list">
+
+
+<!--
+                                            <div class="item" id="expenses-0">
+                                                <div class="item__description">Apartment rent</div>
+                                                <div class="right">
+                                                    <div class="item__value">- 900.00</div>
+                                                    <div class="item__percentage">21%</div>
+                                                    <div class="item__delete">
+                                                        <button class="item__delete--btn"><i class="fas fa-trash-alt"></i></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+-->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
 
     <script src="js/main.js"></script>
 </body>
+
 </html>
